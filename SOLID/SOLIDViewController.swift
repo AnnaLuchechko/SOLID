@@ -13,6 +13,7 @@ class SOLIDViewController: UIViewController {
         super.viewDidLoad()
         
         Sprinciple()
+        Oprinciple()
         
     }
     
@@ -30,6 +31,33 @@ class SOLIDViewController: UIViewController {
         let switcherOff = SwitchOff(switcher: switcher)
         switcherOff.execute()
         switcher.off()
+    }
+    
+    private func Oprinciple() {
+        let ios1 = IosDeveloper()
+        let ios2 = IosDeveloper()
+
+        let iosCool1 = IosDeveloperCool()
+
+        let team = Team(ios: [ios1, ios2], iosCool: [iosCool1])
+        team.programming()
+
+        let web = WebDeveloper()
+
+        let coolTeam = CoolTeam(team: [ios1, iosCool1, web])
+        coolTeam.programming()
+    }
+    
+    private func Lprinciple() {
+        
+    }
+    
+    private func Iprinciple() {
+        
+    }
+    
+    private func Dprinciple() {
+        
     }
 
 }
