@@ -52,7 +52,9 @@ class SOLIDViewController: UIViewController {
     }
     
     private func Iprinciple() {
-        
+        let ios = CvIos(swift: true, objectC: true, html: false, css: false, ruby: false, php: false)
+        let front = CvWebFrontEnd(swift: false, objectC: false, html: true, css: true, ruby: false, php: false)
+        let back = CvWebBackEnd(swift: false, objectC: false, html: false, css: false, ruby: true, php: true)
     }
     
     private func Dprinciple() {
