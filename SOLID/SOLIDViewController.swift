@@ -15,6 +15,8 @@ class SOLIDViewController: UIViewController {
         Sprinciple()
         Oprinciple()
         Lprinciple()
+        Iprinciple()
+        Dprinciple()
         
     }
     
@@ -56,7 +58,13 @@ class SOLIDViewController: UIViewController {
     }
     
     private func Dprinciple() {
+        let normal = NormalMan(wife: SecondWife())
+        normal.food
+        normal.wife = FirstWife()
+        normal.food
         
+        let happy = HappyMan(foodProvider: Mother())
+        happy.food
     }
 
 }

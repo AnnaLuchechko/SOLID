@@ -17,6 +17,7 @@
 		08403D9E257697C400E970AC /* SOLIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08403D9D257697C400E970AC /* SOLIDViewController.swift */; };
 		089AFC0325769B1300349113 /* OpenClosedPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089AFC0225769B1300349113 /* OpenClosedPrinciple.swift */; };
 		089AFC082576D5AE00349113 /* LickovSubstitutionPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089AFC072576D5AE00349113 /* LickovSubstitutionPrinciple.swift */; };
+		089AFC122576DB8E00349113 /* DependencyInversionPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089AFC112576DB8E00349113 /* DependencyInversionPrinciple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		08403D9D257697C400E970AC /* SOLIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOLIDViewController.swift; sourceTree = "<group>"; };
 		089AFC0225769B1300349113 /* OpenClosedPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenClosedPrinciple.swift; sourceTree = "<group>"; };
 		089AFC072576D5AE00349113 /* LickovSubstitutionPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LickovSubstitutionPrinciple.swift; sourceTree = "<group>"; };
+		089AFC112576DB8E00349113 /* DependencyInversionPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInversionPrinciple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				08403D9A2576953B00E970AC /* SingleResponsibilityPrinciple.swift */,
 				089AFC0225769B1300349113 /* OpenClosedPrinciple.swift */,
 				089AFC072576D5AE00349113 /* LickovSubstitutionPrinciple.swift */,
+				089AFC112576DB8E00349113 /* DependencyInversionPrinciple.swift */,
 				082E418125769428002D82CE /* Assets.xcassets */,
 				082E418325769428002D82CE /* LaunchScreen.storyboard */,
 				082E418625769428002D82CE /* Info.plist */,
@@ -152,6 +155,7 @@
 				082E418025769426002D82CE /* SOLID.xcdatamodeld in Sources */,
 				08403D9E257697C400E970AC /* SOLIDViewController.swift in Sources */,
 				082E417625769426002D82CE /* AppDelegate.swift in Sources */,
+				089AFC122576DB8E00349113 /* DependencyInversionPrinciple.swift in Sources */,
 				082E417825769426002D82CE /* SceneDelegate.swift in Sources */,
 				089AFC082576D5AE00349113 /* LickovSubstitutionPrinciple.swift in Sources */,
 				089AFC0325769B1300349113 /* OpenClosedPrinciple.swift in Sources */,
