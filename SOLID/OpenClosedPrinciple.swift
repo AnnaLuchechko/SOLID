@@ -5,6 +5,9 @@
 //  Created by Anna Luchechko on 01.12.2020.
 
 //2. The Open Closed Principle - Принцип окрытости/закрытости
+
+/* Программные модули должны быть открыты для расширения, но закрыты для модификации. */
+
 import UIKit
 
 protocol CanWriteCode {
