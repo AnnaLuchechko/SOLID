@@ -14,13 +14,11 @@ class SOLIDViewController: UIViewController {
         
         Sprinciple()
         Oprinciple()
+        Lprinciple()
         
     }
     
     private func Sprinciple() {
-        
-        //1. Single responsibility principle - Принцип единственной обязанности
-        
         let switcher = Switch()
         switcher.on()
 
@@ -49,7 +47,8 @@ class SOLIDViewController: UIViewController {
     }
     
     private func Lprinciple() {
-        
+        let eagle = Eagle(name: "Eagle", flySpeed: 25)
+        //let penguin = Penguin(name: "Penguin", flySpeed: "can't fly", swimSpeed: 10)
     }
     
     private func Iprinciple() {

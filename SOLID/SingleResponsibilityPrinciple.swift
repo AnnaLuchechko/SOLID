@@ -5,6 +5,9 @@
 //  Created by Anna Luchechko on 01.12.2020.
 
 //1. Single responsibility principle - Принцип единственной обязанности
+
+/* Существует лишь одна причина, приводящая к изменению класса. */
+
 import UIKit
 
 protocol CanBeOn {
