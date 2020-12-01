@@ -40,33 +40,37 @@ class SOLIDViewController: UIViewController {
         let iosCool1 = IosDeveloperCool()
 
         let team = Team(ios: [ios1, ios2], iosCool: [iosCool1])
-        team.programming()
+        print(team.programming())
 
         let web = WebDeveloper()
 
         let coolTeam = CoolTeam(team: [ios1, iosCool1, web])
-        coolTeam.programming()
+        print(coolTeam.programming())
     }
     
     private func Lprinciple() {
         let eagle = Eagle(name: "Eagle", flySpeed: 25)
+        print(eagle)
         //let penguin = Penguin(name: "Penguin", flySpeed: "can't fly", swimSpeed: 10)
     }
     
     private func Iprinciple() {
         let ios = CvIos(swift: true, objectC: true, html: false, css: false, ruby: false, php: false)
+        print(ios)
         let front = CvWebFrontEnd(swift: false, objectC: false, html: true, css: true, ruby: false, php: false)
+        print(front)
         let back = CvWebBackEnd(swift: false, objectC: false, html: false, css: false, ruby: true, php: true)
+        print(back)
     }
     
     private func Dprinciple() {
         let normal = NormalMan(wife: SecondWife())
-        normal.food
+        print(normal.food)
         normal.wife = FirstWife()
-        normal.food
+        print(normal.food)
         
         let happy = HappyMan(foodProvider: Mother())
-        happy.food
+        print(happy.food)
     }
 
 }
